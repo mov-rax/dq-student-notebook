@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1580752355 "dq-student-notebook.tex" "dq-student-notebook.pdf" "dq-student-notebook" 1580752355
+["pdflatex"] 1580755239 "dq-student-notebook.tex" "dq-student-notebook.pdf" "dq-student-notebook" 1580755239
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1572595918 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1572595918 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1572595918 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -145,11 +145,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1580689294 4572998 f9631eebba48c3ee98e5d310044b0a09 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1580689277 8044938 ea6a64a1b3920f712c90c1fdd978ca0c ""
-  "dq-student-notebook.aux" 1580752327 1034 20e5023144e1a5d7c74f36d709ffaf12 "pdflatex"
-  "dq-student-notebook.tex" 1580752353 5354 289f44aa49ec80435d9d9fb8e1da4144 ""
-  "dq-student-notebook.toc" 1580752327 465 f01e4c933bf051c5425d2275306b08db "pdflatex"
+  "dq-student-notebook.aux" 1580752548 1136 b14715a554d851c62dc78c940b318efe "pdflatex"
+  "dq-student-notebook.tex" 1580755237 5357 59fa3cfa530694814d50417f1b5055c6 ""
+  "dq-student-notebook.toc" 1580752548 527 90962ad878ea756815ef09437b19733d "pdflatex"
   (generated)
   "dq-student-notebook.aux"
-  "dq-student-notebook.log"
-  "dq-student-notebook.toc"
   "dq-student-notebook.pdf"
+  "dq-student-notebook.toc"
+  "dq-student-notebook.log"
