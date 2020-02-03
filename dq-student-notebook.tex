@@ -1,0 +1,62 @@
+\documentclass[letter, 11pt]{book}
+
+\usepackage[letter]{geometry}
+\usepackage[english]{babel}
+\usepackage{graphicx}
+\usepackage{wrapfig}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage{amssymb, amsmath}
+\usepackage{index}
+
+\graphicspath{{figures/}}
+
+\begin{document}
+\title{\Large{\textbf{Differential Equations Student Notebook}}}
+\author{Julian Alexander Alvarez}
+\date{February 2, 2020}
+\maketitle
+\let\cleardoublepage\clearpage
+\tableofcontents
+
+\pagenumbering{roman}
+\setcounter{page}{2}
+\fancyhf{}
+\renewcommand{\headrulewidth}{2pt}
+\renewcommand{\footrulewidth}{1pt}
+
+\fancyhead[LE]{\leftmark}
+\fancyhead[RO]{\leftmark}
+\fancyfoot[LE,RO]{\thepage}
+
+
+\chapter{Preface}
+Welcome to my \textit{Differential Equations Student Notebook}. I created this ``borderline textbook'' notebook
+as a way for me and others to study and/or learn Differntial Equations from. You may be asking: ``What qualifications do you have to be making this \textit{Differential Equations Notebook}?''
+and my response to that is that I am not. \textbf{I AM NOT QUALIFIED}. I am just a student who thought that making a textbook would assist me in learning about DEs. However, I have taken Calculus I, II, III, Discrete Mathematics, Linear Algerbra, and any other foundation-building mathematical class that University of Houston - Clear Lake provides (if that makes you trust me more).
+
+
+It would be greatly appreciated if you simply took this as a study resource for any current, soon-to-be-current, already-took-this-and-just-forgot student.
+Therefore, without further ado, lets begin our dive into DIFFERENTIAL EQUATIONS.
+\newpage
+\chapter{The Very Beginning}
+\section{Requirements}
+As it is in every area of mathematics, there is a certain level of knowledge that is to be expected to be known by students.
+Requirements for \textit{Differential Equations} is prior experience in Calculus I and II.
+
+Of course, it is \textbf{expected that you are a BORDERLINE SAVANT in Calculus}. If you are not absolutely comfortable with Calculus, I reccommend that you REALLY go over it.
+\section{Types of Differential Equations}
+There are two types of Differential Equations: Ordinary Differential Equations (ODEs) and Partial Differential Equations (PDEs).
+The two differences between a \textbf{ODE} and a \textbf{PDE} is that an ODE is (as the name suggests) an equation that contains ordinary differentials. An example of an ODE is as follows:
+\begin{equation}\label{Ex. 1}
+\centered
+\frac{dy}{dx} = 4y - 2x
+\end{equation}
+An example of a PDE is as follows:
+\begin{equation}\label{Ex. 2}
+\centered
+\frac{\partial y}{\partial x} = 17x^2 -3y*\sin{y}
+\end{equation}
+Did you spot the difference? The differentiating factor between example 2.1 and 2.2 is $\frac{dy}{dx}$ and $\frac{\partial y}{\partial x}$. \textit{One contains partials while the other does not}.
+
+\end{document}
