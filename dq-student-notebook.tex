@@ -9,6 +9,24 @@
 \usepackage{amssymb, amsmath}
 \usepackage{index}
 \usepackage{tcolorbox}
+\usepackage{import}
+\usepackage{xifthen}
+\usepackage{pdfpages}
+\usepackage{transparent}
+
+\newcommand{\incfig}[1]{%
+	\def\svgwidth{2in}
+	\import{./figures/}{#1.pdf_tex}
+}
+
+\newcommand{\insertfig}[2]{%
+	\begin{figure}[ht]
+	\centering
+	\incfig{#1}
+	\caption{#2}
+	\label{#1}
+	\end{figure}
+}
 
 \graphicspath{{figures/}}
 
@@ -33,7 +51,6 @@
 \fancyhead[LE]{\leftmark}
 \fancyhead[RO]{\leftmark}
 \fancyfoot[LE,RO]{\thepage}
-
 
 \chapter{Preface}
 Welcome to my \textit{Differential Equations Student Notebook}. I created this ``borderline textbook'' notebook
@@ -105,6 +122,26 @@ Of course, it is expected that you can aleady manipulate any given equation to n
 not able to do so, I am sorry.
 
 \subsection{Linearity}
-An 
+
+
+Any arbitrary ordinary differential equation is \textbf{linear} if \textit{F} is linear in $y,y',y'',...,y^{(n)}$.
+Therefore, any \textit{n}th-order ODE is linear when it can be represented as:
+\begin{equation}
+	a_n(x)\frac{d^ny}{dx^n}+a_{n-1}(x)\frac{d^{n-1}y}{dx^{n-1}}+\dotsi+a_1(x)\frac{dy}{dx}+a_0(x)y=g(x)
+\end{equation}
+Two important properties of ODEs are:
+\begin{itemize}
+	\item{The dependent variable and all of its derivatives are linear.}
+	\item{The coefficients of the dependent variables $y, y', y'',...,y^{(n)}$ contain at most an independent variable.}
+\end{itemize}
+An example of a linear ODE is:
+\begin{equation}\label{lode}
+	4x^2\frac{d^2y}{dx^2}+21x\frac{dy}{dx}-7y=0
+\end{equation}
+An example of a nonlinear ODE is:
+\begin{equation}\label{nlode}
+	3yx\frac{d^2y}{dx^2}-15x\frac{dy}{dx}+12xy=0
+\end{equation}
+\textbf{THE REASON:} Equation \eqref{lode} has no dependent variables in its coefficients, while \eqref{nlode} does.
 \end{document}
 
