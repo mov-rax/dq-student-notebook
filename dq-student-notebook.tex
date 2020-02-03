@@ -8,9 +8,15 @@
 \usepackage{fancyhdr}
 \usepackage{amssymb, amsmath}
 \usepackage{index}
+\usepackage{tcolorbox}
 
 \graphicspath{{figures/}}
 
+\tcbuselibrary{theorems}
+\newtcbtheorem[number within=section]{theorem}{Theorem}%
+{colback=green!5,colframe=green!35!black,fonttitle=\bfseries}{th}
+\newtcbtheorem[number within=section]{definition}{Definition}%
+{colframe=gray!50!black,fonttitle=\bfseries}{}
 \begin{document}
 \title{\Large{\textbf{Differential Equations Student Notebook}}}
 \author{Julian Alexander Alvarez}
@@ -19,7 +25,6 @@
 \let\cleardoublepage\clearpage
 \tableofcontents
 
-\pagenumbering{roman}
 \setcounter{page}{2}
 \fancyhf{}
 \renewcommand{\headrulewidth}{2pt}
@@ -32,7 +37,7 @@
 
 \chapter{Preface}
 Welcome to my \textit{Differential Equations Student Notebook}. I created this ``borderline textbook'' notebook
-as a way for me and others to study and/or learn Differntial Equations from. You may be asking: ``What qualifications do you have to be making this \textit{Differential Equations Notebook}?''
+as a way for me and others to study and/or learn Differential Equations from. You may be asking: ``What qualifications do you have to be making this \textit{Differential Equations Notebook}?''
 and my response to that is that I am not. \textbf{I AM NOT QUALIFIED}. I am just a student who thought that making a textbook would assist me in learning about DEs. However, I have taken Calculus I, II, III, Discrete Mathematics, Linear Algerbra, and any other foundation-building mathematical class that University of Houston - Clear Lake provides (if that makes you trust me more).
 
 
@@ -58,5 +63,16 @@ An example of a PDE is as follows:
 \frac{\partial y}{\partial x} = 17x^2 -3y*\sin{y}
 \end{equation}
 Did you spot the difference? The differentiating factor between example 2.1 and 2.2 is $\frac{dy}{dx}$ and $\frac{\partial y}{\partial x}$. \textit{One contains partials while the other does not}.
+\begin{definition}{Differential Equation}{}
+	An equation that contains the derivatives of one or more unknown functions or variables ($f(x), y$, etc.), with respect to one or more independent variables is a \textbf{DIFFERENTIAL EQUATION}.
+\end{definition}
+
+\section{Classification By Order}
+	The ordering of a differential equation is set by these three tenets:
+\begin{itemize}
+	\item Type
+	\item Order
+	\item Linearity
+\end{itemize}
 
 \end{document}
