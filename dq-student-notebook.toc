@@ -4,3 +4,6 @@
 \contentsline {section}{\numberline {2.1}Requirements}{4}% 
 \contentsline {section}{\numberline {2.2}Types of Differential Equations}{4}% 
 \contentsline {section}{\numberline {2.3}Classification By Order}{5}% 
+\contentsline {subsection}{\numberline {2.3.1}Type}{5}% 
+\contentsline {subsection}{\numberline {2.3.2}Order}{5}% 
+\contentsline {subsection}{\numberline {2.3.3}Linearity}{6}% 

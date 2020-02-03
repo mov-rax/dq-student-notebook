@@ -1,5 +1,5 @@
 # Fdb version 3
-["pdflatex"] 1580749345 "dq-student-notebook.tex" "dq-student-notebook.pdf" "dq-student-notebook" 1580749345
+["pdflatex"] 1580752355 "dq-student-notebook.tex" "dq-student-notebook.pdf" "dq-student-notebook" 1580752355
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1572595918 3332 103109f5612ad95229751940c61aada0 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1572595918 1004 54797486969f23fa377b128694d548df ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex8.tfm" 1572595918 988 bdf658c3bfc2d96d3c8b02cfc1c94c20 ""
@@ -30,9 +30,11 @@
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1572595918 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1572595918 35752 024fb6c41858982481f6968b5fc26508 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb" 1572595918 32722 d7379af29a190c3f453aba36302ff5a9 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb" 1572595918 32734 69e00a6b65cedb993666e42eedb3d48f ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb" 1572595918 32726 0a1aea6fcd6468ee2cf64d891f5c43c8 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb" 1572595918 35022 e40946b20bfdcd1099eafb2bcd9f25dd ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1572595918 32569 5e5ddc8df908dea60932f3c484a54c0d ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1572595918 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1572595918 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "/usr/share/texmf-dist/tex/context/base/mkii/supp-pdf.mkii" 1572595918 71627 94eb9990bed73c364d7f53f960cc8c5b ""
   "/usr/share/texmf-dist/tex/generic/babel-english/english.ldf" 1572595918 7008 9ff5fdcc865b01beca2b0fe4a46231d4 ""
@@ -143,11 +145,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1572595918 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1580689294 4572998 f9631eebba48c3ee98e5d310044b0a09 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1580689277 8044938 ea6a64a1b3920f712c90c1fdd978ca0c ""
-  "dq-student-notebook.aux" 1580749183 780 20debc583be315ac6010339eed1d2714 "pdflatex"
-  "dq-student-notebook.tex" 1580749345 3549 3f881826cf2096e5918a2d71b23dbcf4 ""
-  "dq-student-notebook.toc" 1580749183 350 8524239bc0727d74b9aee6b3ffe0b06d "pdflatex"
+  "dq-student-notebook.aux" 1580752327 1034 20e5023144e1a5d7c74f36d709ffaf12 "pdflatex"
+  "dq-student-notebook.tex" 1580752353 5354 289f44aa49ec80435d9d9fb8e1da4144 ""
+  "dq-student-notebook.toc" 1580752327 465 f01e4c933bf051c5425d2275306b08db "pdflatex"
   (generated)
-  "dq-student-notebook.pdf"
+  "dq-student-notebook.aux"
   "dq-student-notebook.log"
   "dq-student-notebook.toc"
-  "dq-student-notebook.aux"
+  "dq-student-notebook.pdf"
